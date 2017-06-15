@@ -49,6 +49,7 @@
         <activity
             android:name=".Rating"
             android:label="Encourage Our Team" />
+
         <activity
             android:name=".GraphicalReport"
             android:label="Grapical Report" />
