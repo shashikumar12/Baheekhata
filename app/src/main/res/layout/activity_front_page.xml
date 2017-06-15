@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.centuratechnology.baheekhata.FrontPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:paddingBottom="30dp"
+            android:src="@mipmap/ic_account_circle_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <!-- First Horizontal Layout-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:background="#8BC34A"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/sale"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/new_invoice_and_sale_book"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FFC107"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/order"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/new_order_and_order_book"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Second Horizontal Layout-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#03A9F4"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t5"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/moneyio"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/add_incoming_and_outgoing"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#1976D2"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t7"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/purchase"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/t8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/add_new_purchase_and_book"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Third Horizontal Layout-->
+                <LinearLayout
+                    android:id="@+id/main_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FF9800"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t9"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/quantitysale"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/t10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/new_quanitity_sale_and_book"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#9E9D24"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/t11"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/today_rate"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/t12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/setup_today_rate_for_item"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FF80AB"
+                    android:text="@string/logout"
+                    android:textColor="@color/Black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/expView"
+        android:fitsSystemWindows="true">
+
+        <ExpandableListView
+            android:id="@+id/expList"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:dividerHeight="0dp">
+
+        </ExpandableListView>
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

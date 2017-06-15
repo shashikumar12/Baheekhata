@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Baheekhata</string>
+    <string name="sale">Sale</string>
+    <string name="new_invoice_and_sale_book">New invoice and sale book</string>
+    <string name="order">Order</string>
+    <string name="new_order_and_order_book">New order and order book</string>
+    <string name="setup_today_rate_for_item">Setup today rate for item</string>
+    <string name="today_rate">Today Rate</string>
+    <string name="new_quanitity_sale_and_book">New quanitity sale and book</string>
+    <string name="quantitysale">QuantitySale</string>
+    <string name="add_new_purchase_and_book">Add new purchase and book</string>
+    <string name="purchase">Purchase</string>
+    <string name="add_incoming_and_outgoing">Add incoming and outgoing</string>
+    <string name="moneyio">Moneyio</string>
+    <string name="log_in">Login</string>
+    <string name="register_here">Register Here</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_id">Email-Id</string>
+    <string name="adress">Adress</string>
+    <string name="bulding_area">Bulding Area</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="referal_id_not_required_for_new_user">Referal-Id not required for New User !!</string>
+    <string name="referal_id">Referal Id</string>
+    <string name="next">Next</string>
+    <string name="help_u_always">Help U Always</string>
+</resources>
